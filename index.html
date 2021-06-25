@@ -9,17 +9,22 @@
 </head>
 
 <body>
+    <a href="#home">
+        <div id="scroll-up-buttom">
+            <img src="./assets/images/iconmonstr-triangle-4-32.png" alt="Navigation up" height="30">
+        </div>
+    </a>
 
     <!--TOP bar and Menu -->
     <div id="navigation-bar">
         <div id="max-width">
             <div id="logo"><a href="#">Portfo<span>lio.</span></a>
                 <ul id="menu">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Skills</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -39,7 +44,7 @@
 
 
     <!--About section -->
-    <div id="about">
+    <section id="about">
         <div id="max-width">
             <h2 class="title">About me</h2>
             <div id="about-content">
@@ -56,17 +61,16 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
 
     <!--Services section -->
-    <div id="services" class="services">
+    <section id="services" class="services">
         <div id="max-width">
             <h2 class="title">Services</h2>
             <div id="services-content">
 
                 <div id="card">
-
                     <div id="box">
                         <img id="img" src="./assets/images/iconmonstr-paintbrush-1.svg">
                         <div id="text">
@@ -75,7 +79,6 @@
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus nemo error illo laudantium vitae quod, fuga doloremque natus aut deserunt. Quae, nostrum eius! Expedita ut odio molestiae et a sapiente!</p>
                     </div>
                     <br/>
-
                     <div id="box">
                         <img id="img" src="./assets/images/iconmonstr-code-2.svg">
                         <div id="text">
@@ -83,7 +86,6 @@
                         </div>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus nemo error illo laudantium vitae quod, fuga doloremque natus aut deserunt. Quae, nostrum eius! Expedita ut odio molestiae et a sapiente!</p>
                     </div>
-
                     <div id="box">
                         <img id="img" src="./assets/images/iconmonstr-cloud-15.svg">
                         <div id="text">
@@ -91,26 +93,120 @@
                         </div>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus nemo error illo laudantium vitae quod, fuga doloremque natus aut deserunt. Quae, nostrum eius! Expedita ut odio molestiae et a sapiente!</p>
                     </div>
-
-
-
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+
+    <!--Skill's section -->
+    <section id="skills">
+        <div id="max-width">
+            <h2 class="title">My Skills</h2>
+            <div id="skills-content">
+                <div id="column-left">
+                    <div id="text">
+                        My Skills and Experiences
+                    </div>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias rem consequuntur facilis sequi fugiat hic, asperiores id quidem labore ut debitis explicabo nisi dolore soluta itaque omnis! Commodi, asperiores quia odit maxime eaque,
+                        unde ab, suscipit architecto placeat voluptate deserunt amet aut totam dolore illum rerum. Tenetur voluptatem, aut quia autem aspernatur quidem fugit officia dolorum consectetur. Necessitatibus, at eius.</p>
+                    <a href="#">Read more</a>
+                </div>
+
+                <div id="column-right">
+
+                    <div id="bars">
+                        <div id="info">
+                            <span>HTML</span>
+                            <span>50%</span>
+                        </div>
+                        <div id="line" class="html"></div>
 
 
+                    </div>
+                    <div id="bars">
+                        <div id="info">
+                            <span>PHP</span>
+                            <span>40%</span>
+                        </div>
+                        <div id="line" class="php"></div>
+
+                    </div>
+                    <div id="bars">
+                        <div id="info">
+                            <span>CSS</span>
+                            <span>40%</span>
+                        </div>
+                        <div id="line" class="css"></div>
+
+                    </div>
+                    <div id="bars">
+                        <div id="info">
+                            <span>JAVA</span>
+                            <span>30%</span>
+                        </div>
+                        <div id="line" class="java"></div>
+
+                    </div>
+                    <div id="bars">
+                        <div id="info">
+                            <span>MySQL</span>
+                            <span>50%</span>
+                        </div>
+                        <div id="line" class="mysql"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Contact section -->
+
+    <section id="contact" class="contact">
+        <div id="max-width">
+            <h2 class="title">Contact me</h2>
+            <div id="contact-content">
+                <div id="column">
+                    <div id="text">Get in Touch</div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, sed veritatis sequi nemo tempora debitis laboriosam incidunt laudantium rerum. Accusantium.</p>
+                    <div id="icons">
+                        <div id="row">
+                            <img src="./assets/images/iconmonstr-user-20.svg">
+                            <div id="info">
+                                <div id="head">Name</div>
+                                <div id="subtitle">Itamar Junior</div>
+                            </div>
+                        </div>
+                        <div id="row">
+                            <img src="./assets/images/iconmonstr-location-2.svg">
+                            <div id="info">
+                                <a href="https://www.google.com/maps/place/Dublin/" target="_blank">
+                                    <div id="head">Address</div>
+                                    <div id="subtitle">Dublin, Ireland</div>
+                                </a>
+                            </div>
+                        </div>
+                        <div id="row">
+
+                            <img src="./assets/images/iconmonstr-email-14.svg">
+                            <div id="info">
+                                <a href="mailto:hello@itjunior.dev">
+                                    <div id="head">Email</div>
+                                    <div id="subtitle">hello@itjunior.dev</div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Contact section -->
+    <footer>
+        <span>Created by <a href="mailto:hello@itjunior.dev">Itamar Junior</a> | <span> </span> 2021 All rights reserved.</span>
+    </footer>
 
 
-
-
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis explicabo officiis similique ipsum impedit! Officia pariatur placeat, temporibus exercitationem provident sunt dolore perspiciatis voluptates nisi, nam reprehenderit molestiae ducimus
-        ad expedita? Impedit unde nobis voluptates praesentium! Praesentium voluptatibus perspiciatis, facere eveniet quisquam sit fugit minus sapiente ex reiciendis maiores aperiam doloribus est a nemo quaerat optio similique animi quas consectetur.
-        Illum expedita nesciunt praesentium quisquam ipsa, obcaecati corrupti natus incidunt ducimus a voluptatem architecto minima itaque ab porro? Excepturi maxime, adipisci sit reprehenderit qui, laboriosam nobis dignissimos nisi inventore tenetur
-        obcaecati cumque dolorum quod corrupti blanditiis eius maiores. Praesentium eos aut nam, accusantium nisi, natus nesciunt perferendis quibusdam debitis optio repellendus hic ex neque expedita vitae officia unde quo consectetur laudantium nostrum
-        illo amet. Totam doloribus reprehenderit et, nesciunt voluptatem non. Odit, eius vel et nesciunt, quia magnam quod perspiciatis sit reprehenderit ipsum veniam, itaque voluptatibus ullam asperiores quibusdam quaerat dolorem omnis ut dolor suscipit
-        nobis repellendus excepturi. Tenetur eaque quos expedita dolore labore, unde rerum maxime officiis officia velit amet voluptate asperiores corporis doloremque in quibusdam enim alias impedit deserunt quasi est quas repellendus! Cumque, officiis
-        voluptate cupiditate, inventore ipsa accusantium commodi, voluptas deleniti eius voluptatum recusandae incidunt numquam.</p>
 </body>
 
 </html>

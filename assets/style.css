@@ -7,6 +7,10 @@
     font-family: 'Ubuntu';
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 #max-width {
     padding: 0 80px;
 }
@@ -19,6 +23,7 @@
     list-style: none;
     width: 100%;
     padding: 30px 0;
+    background: -webkit-radial-gradient( 10% 0%, 100% 30%, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0) 230%);
 }
 
 #navigation-bar #logo a {
@@ -53,6 +58,27 @@
 
 #navigation-bar #menu li a:hover {
     color: crimson;
+}
+
+
+/*Scroll up buttom*/
+
+#scroll-up-buttom {
+    position: fixed;
+    height: 45px;
+    width: 42px;
+    background: crimson;
+    right: 30px;
+    bottom: 10px;
+    text-align: center;
+    line-height: 50px;
+    z-index: 9999;
+    font-size: 30px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 2s ease;
+    pointer-events: auto;
+    opacity: 0.7;
 }
 
 
@@ -116,11 +142,22 @@ section {
 }
 
 
-/*Similar content styling*/
+/*Similar content styling shared between DIVs and Sections*/
 
 #about,
-#services {
+#services,
+#skills {
     padding: 100px 0;
+}
+
+#about-content,
+#card,
+#skills #skills-content,
+#contact #contact-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 #max-width .title {
@@ -161,14 +198,6 @@ section {
     content: "Who I am";
 }
 
-#about-content,
-#card {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-}
-
 #about-content #column-left {
     width: 45%;
     display: flex;
@@ -203,7 +232,8 @@ section {
     text-align: justify;
 }
 
-#about-content #column-right a {
+#about-content #column-right a,
+#skills #skills-content #column-left a {
     display: inline-block;
     background: crimson;
     color: #fff;
@@ -216,7 +246,8 @@ section {
     transition: all 0.3s ease;
 }
 
-#about-content #column-right a:hover {
+#about-content #column-right a:hover,
+#skills #skills-content #column-left a:hover {
     color: crimson;
     background: none;
 }
@@ -237,8 +268,6 @@ section {
     content: "My Services";
     background: #111;
 }
-
-#services #services-content #card {}
 
 #services #services-content #box {
     width: 300px;
@@ -267,4 +296,157 @@ section {
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
+}
+
+
+/*Skills section*/
+
+#skills .title::after {
+    content: "My Skills";
+    background: #fff;
+}
+
+#skills #skills-content #column-left {
+    width: 40%;
+    min-width: 350px;
+    text-align: justify;
+    margin: 0 auto 60px;
+}
+
+#skills #skills-content #column-left #text {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+#skills #skills-content #column-right #bars {
+    width: 100%;
+    min-width: 350px;
+    margin-bottom: 30px;
+}
+
+#skills #skills-content #column-right #info {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+#skills #skills-content #column-right span {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+#skills #skills-content #column-right #line {
+    height: 5px;
+    width: 100%;
+    background: lightgray;
+    position: relative;
+}
+
+#skills #skills-content #column-right #line::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: crimson;
+}
+
+#skills #skills-content #column-right .html::before {
+    width: 50%;
+}
+
+#skills #skills-content #column-right .php::before {
+    width: 40%;
+}
+
+#skills #skills-content #column-right .css::before {
+    width: 40%;
+}
+
+#skills #skills-content #column-right .java::before {
+    width: 30%;
+}
+
+#skills #skills-content #column-right .mysql::before {
+    width: 50%;
+}
+
+
+/*Contact section*/
+
+#contact,
+#contact a {
+    color: #fff;
+    background: #111;
+}
+
+#contact .title::before {
+    background: white;
+}
+
+#contact .title::after {
+    content: "Get in touch";
+    background: #111;
+}
+
+#contact img {
+    filter: invert();
+    width: 25px;
+    height: 25px;
+}
+
+#contact #contact-content #column {
+    width: 50%;
+    min-width: 400px;
+}
+
+#contact #contact-content #text {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+#contact #contact-content #column p {
+    text-align: justify;
+}
+
+#contact #contact-content #column #icons {
+    margin: 10px 0;
+}
+
+#contact #contact-content #column #row {
+    display: flex;
+    height: 65px;
+    align-items: center;
+}
+
+#contact #contact-content #column #row #info {
+    margin-left: 30px;
+}
+
+#contact #contact-content #column #row #info #head {
+    font-weight: 500;
+}
+
+#contact #contact-content #column #row #info #subtitle {
+    color: rgb(133, 133, 133);
+}
+
+
+/*Footer section*/
+
+footer {
+    padding: 20px 23px;
+}
+
+footer span a {
+    color: crimson;
+}
+
+footer span a:hover {
+    font-weight: 900;
+    transition: all 0.3s ease;
 }
