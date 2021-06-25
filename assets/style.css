@@ -11,7 +11,7 @@ html {
     scroll-behavior: smooth;
 }
 
-#max-width {
+.max-width {
     padding: 0 80px;
 }
 
@@ -101,7 +101,7 @@ html {
     min-width: 500px;
 }
 
-#home #max-width {
+#home .max-width {
     margin: auto 0 auto 40px;
 }
 
@@ -166,7 +166,7 @@ section {
     justify-content: center;
 }
 
-#max-width .title {
+.max-width .title {
     position: relative;
     font-size: 40px;
     font-weight: 500;
@@ -175,7 +175,7 @@ section {
     text-align: center;
 }
 
-#max-width .title::before {
+.max-width .title::before {
     content: "";
     position: absolute;
     bottom: 0px;
@@ -186,7 +186,7 @@ section {
     transform: translateX(-50%);
 }
 
-#max-width .title::after {
+.max-width .title::after {
     position: absolute;
     bottom: -13px;
     left: 50%;
@@ -204,42 +204,42 @@ section {
     content: "Who I am";
 }
 
-#about-content #column-left {
+#about-content .column-left {
     width: 45%;
     display: flex;
     justify-content: center;
     margin: 0 auto 60px;
 }
 
-#about-content #column-left img {
+#about-content .column-left img {
     height: 100%;
     width: 400px;
     border-radius: 6px;
 }
 
-#about-content #column-right {
+#about-content .column-right {
     width: 480px;
     padding: 20px;
     justify-content: center;
     margin: 0 auto 60px;
 }
 
-#about-content #column-right #text {
+#about-content .column-right .text {
     font-size: 25px;
     font-weight: 600;
     margin-bottom: 10px;
 }
 
-#about-content #column-right span {
+#about-content .column-right span {
     color: crimson;
 }
 
-#about-content #column-right p {
+#about-content .column-right p {
     text-align: justify;
 }
 
-#about-content #column-right a,
-#skills #skills-content #column-left a {
+#about-content .column-right a,
+#skills #skills-content .column-left a {
     display: inline-block;
     background: crimson;
     color: #fff;
@@ -252,8 +252,8 @@ section {
     transition: all 0.3s ease;
 }
 
-#about-content #column-right a:hover,
-#skills #skills-content #column-left a:hover {
+#about-content .column-right a:hover,
+#skills #skills-content .column-left a:hover {
     color: crimson;
     background: none;
 }
@@ -275,7 +275,7 @@ section {
     background: #111;
 }
 
-#Projects #Projects-content #box {
+#Projects #Projects-content .box {
     width: 250px;
     height: 320px;
     margin-left: 6%;
@@ -288,18 +288,18 @@ section {
     transition: all 0.3s ease;
 }
 
-#Projects #Projects-content #box:hover {
+#Projects #Projects-content .box:hover {
     background: crimson;
     transform: scale(1.05);
 }
 
-#Projects #Projects-content #card #img {
+#Projects #Projects-content #card .img {
     filter: invert();
     width: 40px;
     height: 40px;
 }
 
-#Projects #Projects-content #card #box #text {
+#Projects #Projects-content #card .box .text {
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
@@ -313,28 +313,28 @@ section {
     background: #fff;
 }
 
-#skills #skills-content #column-left {
+#skills #skills-content .column-left {
     width: 40%;
     min-width: 350px;
 }
 
-#skills #skills-content #column-left #text {
+#skills #skills-content .column-left .text {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
 }
 
-#skills #skills-content #column-left p {
+#skills #skills-content .column-left p {
     margin-right: 20px;
 }
 
-#skills #skills-content #column-right #bars {
+#skills #skills-content .column-right .bars {
     width: 100%;
     min-width: 350px;
     margin-bottom: 30px;
 }
 
-#skills #skills-content #column-right #info {
+#skills #skills-content .column-right .info {
     width: 400px;
     display: flex;
     align-items: center;
@@ -342,44 +342,46 @@ section {
     margin-bottom: 5px;
 }
 
-#skills #skills-content #column-right span {
+#skills #skills-content .column-right span {
     font-weight: 500;
     font-size: 18px;
 }
 
-#skills #skills-content #column-right #line {
+#skills #skills-content .column-right .line {
     height: 5px;
     width: 100%;
     background: lightgray;
     position: relative;
+    border-radius: 50px;
 }
 
-#skills #skills-content #column-right #line::before {
+#skills #skills-content .column-right .line::before {
     content: "";
     position: absolute;
     height: 100%;
     left: 0;
     top: 0;
     background: crimson;
+    border-radius: 50px;
 }
 
-#skills #skills-content #column-right .html::before {
+#skills #skills-content .column-right .html::before {
     width: 50%;
 }
 
-#skills #skills-content #column-right .php::before {
+#skills #skills-content .column-right .php::before {
     width: 40%;
 }
 
-#skills #skills-content #column-right .css::before {
+#skills #skills-content .column-right .css::before {
     width: 40%;
 }
 
-#skills #skills-content #column-right .java::before {
+#skills #skills-content .column-right .java::before {
     width: 30%;
 }
 
-#skills #skills-content #column-right .mysql::before {
+#skills #skills-content .column-right .mysql::before {
     width: 50%;
 }
 
@@ -407,7 +409,7 @@ section {
     height: 25px;
 }
 
-#contact #contact-content #text {
+#contact #contact-content .text {
     width: auto;
     font-size: 20px;
     font-weight: 500;
@@ -418,17 +420,17 @@ section {
     text-align: justify;
 }
 
-#contact #contact-content #column #row {
+#contact #contact-content #column .row {
     display: flex;
     height: 65px;
     align-items: center;
 }
 
-#contact #contact-content #column #row #info {
+#contact #contact-content #column .row .info {
     margin-left: 30px;
 }
 
-#contact #contact-content #column #row #info #subtitle {
+#contact #contact-content #column .row .info .subtitle {
     color: rgb(133, 133, 133);
 }
 
