@@ -91,7 +91,7 @@ html {
 
 #home {
     display: flex;
-    background: url("./images/tea_html_coding.jpg") no-repeat center;
+    background: url("./images/cherries.jpg") no-repeat center;
     background-size: cover;
     /*To fill to the height*/
     background-color: black;
@@ -150,9 +150,10 @@ section {
 /*Similar content styling shared between DIVs and Sections*/
 
 #about,
-#services,
-#skills {
-    padding: 100px 0;
+#Projects,
+#skills,
+#contact {
+    padding: 60px 0;
 }
 
 #about-content,
@@ -258,24 +259,25 @@ section {
 }
 
 
-/*Services section*/
+/*Projects section*/
 
-#services {
+#Projects {
     color: #fff;
     background: #111;
 }
 
-#services .title::before {
+#Projects .title::before {
     background: white;
 }
 
-#services .title::after {
-    content: "My Services";
+#Projects .title::after {
+    content: "My Projects";
     background: #111;
 }
 
-#services #services-content #box {
-    width: 300px;
+#Projects #Projects-content #box {
+    width: 250px;
+    height: 320px;
     margin-left: 6%;
     margin-bottom: 20px;
     background-color: #222;
@@ -286,18 +288,18 @@ section {
     transition: all 0.3s ease;
 }
 
-#services #services-content #box:hover {
+#Projects #Projects-content #box:hover {
     background: crimson;
     transform: scale(1.05);
 }
 
-#services #services-content #card #img {
+#Projects #Projects-content #card #img {
     filter: invert();
     width: 40px;
     height: 40px;
 }
 
-#services #services-content #card #box #text {
+#Projects #Projects-content #card #box #text {
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
@@ -314,14 +316,16 @@ section {
 #skills #skills-content #column-left {
     width: 40%;
     min-width: 350px;
-    text-align: justify;
-    margin: 0 auto 60px;
 }
 
 #skills #skills-content #column-left #text {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
+}
+
+#skills #skills-content #column-left p {
+    margin-right: 20px;
 }
 
 #skills #skills-content #column-right #bars {
@@ -403,23 +407,15 @@ section {
     height: 25px;
 }
 
-#contact #contact-content #column {
-    width: 50%;
-    min-width: 400px;
-}
-
 #contact #contact-content #text {
+    width: auto;
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 10px;
 }
 
-#contact #contact-content #column p {
+#contact #contact-content p {
     text-align: justify;
-}
-
-#contact #contact-content #column #icons {
-    margin: 10px 0;
 }
 
 #contact #contact-content #column #row {
@@ -432,12 +428,17 @@ section {
     margin-left: 30px;
 }
 
-#contact #contact-content #column #row #info #head {
-    font-weight: 500;
-}
-
 #contact #contact-content #column #row #info #subtitle {
     color: rgb(133, 133, 133);
+}
+
+.network {
+    display: flex;
+    width: 500px;
+    min-width: 500px;
+    margin: auto;
+    flex-flow: wrap;
+    justify-content: space-around;
 }
 
 
