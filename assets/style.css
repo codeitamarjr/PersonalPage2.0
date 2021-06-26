@@ -264,6 +264,8 @@ section {
 #Projects {
     color: #fff;
     background: #111;
+    background: url("./images/tea_html_coding.jpg") center no-repeat;
+    background-size: cover;
 }
 
 #Projects .title::before {
@@ -272,7 +274,8 @@ section {
 
 #Projects .title::after {
     content: "My Projects";
-    background: #111;
+    background: white;
+    border-radius: 6px;
 }
 
 #Projects #Projects-content .box {
