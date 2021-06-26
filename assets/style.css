@@ -205,10 +205,10 @@ section {
 }
 
 #about-content .column-left {
-    width: 45%;
+    width: 50%;
     display: flex;
     justify-content: center;
-    margin: 0 auto 60px;
+    margin: 0 auto 5%;
 }
 
 #about-content .column-left img {
@@ -218,10 +218,10 @@ section {
 }
 
 #about-content .column-right {
-    width: 480px;
-    padding: 20px;
-    justify-content: center;
-    margin: 0 auto 60px;
+    width: 50%;
+    min-width: 400px;
+    text-align: left;
+    margin: 0 auto 5%;
 }
 
 #about-content .column-right .text {
@@ -278,19 +278,18 @@ section {
 #Projects #Projects-content .box {
     width: 250px;
     height: 320px;
-    margin-left: 6%;
-    margin-bottom: 20px;
     background-color: #222;
     text-align: center;
     border-radius: 6px;
     padding: 20px 25px;
     cursor: pointer;
     transition: all 0.3s ease;
+    margin: 0.6% 0.6% 0.6%;
 }
 
 #Projects #Projects-content .box:hover {
     background: crimson;
-    transform: scale(1.05);
+    transform: scale(1.06);
 }
 
 #Projects #Projects-content #card .img {
@@ -331,7 +330,7 @@ section {
 #skills #skills-content .column-right .bars {
     width: 100%;
     min-width: 350px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 #skills #skills-content .column-right .info {
@@ -343,7 +342,7 @@ section {
 }
 
 #skills #skills-content .column-right span {
-    font-weight: 500;
+    font-weight: 600px;
     font-size: 18px;
 }
 
