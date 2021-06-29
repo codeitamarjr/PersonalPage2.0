@@ -287,16 +287,16 @@ section {
     padding: 20px 25px;
     cursor: pointer;
     transition: all 0.3s ease;
-    margin: 0.6% 0.6% 0.6%;
 }
 
 #Projects #Projects-content .box:hover {
     background: crimson;
-    transform: scale(1.06);
+    transform: scale(1.08);
 }
 
 #Projects #Projects-content a {
     color: white;
+    margin: 0.6% 0.6% 0.6%;
 }
 
 #Projects #Projects-content #card .img {
