@@ -295,6 +295,10 @@ section {
     transform: scale(1.06);
 }
 
+#Projects #Projects-content .box a {
+    color: white;
+}
+
 #Projects #Projects-content #card .img {
     filter: invert();
     width: 40px;
