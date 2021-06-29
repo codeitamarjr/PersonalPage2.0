@@ -53,7 +53,7 @@ html {
     color: #fff;
     font-size: 1.9vh;
     font-weight: 500;
-    margin-left: 6vh;
+    margin-left: 3vh;
     transition: color 0.4s ease;
 }
 
@@ -262,7 +262,7 @@ section {
 #Projects {
     color: #fff;
     background: #111;
-    background: url("./images/tea_html_coding.jpg") center no-repeat;
+    /*background: url("./images/tea_html_coding.jpg") center no-repeat;*/
     /* This will cause the image to shrink to fit
     the space it has, should the viewport size be
     smaller than the image. */
