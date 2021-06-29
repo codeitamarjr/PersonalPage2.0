@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
 <head>
     <!--  Adding the value initial-scale=1 instructs browsers to establish a 1:1 relationship between
         CSS pixels and device-independent pixels regardless of device orientation,
@@ -16,12 +15,6 @@
 </head>
 
 <body>
-
-    <a href="#home">
-        <div id="scroll-up-buttom" class="scroll-up-buttom">
-            <img src="./assets/images/iconmonstr-triangle-4-32.png" alt="Navigation up">
-        </div>
-    </a>
 
     <!--TOP bar and Menu -->
     <div id="navigation-bar">
@@ -50,231 +43,242 @@
         </div>
     </div>
 
+    <div id="navigator-up">
 
-    <!--About section -->
-    <section id="about" class="about">
-        <div class="max-width">
-            <h2 class="title">About me</h2>
-            <div id="about-content">
-                <div class="column-left">
-                    <img src="./assets/images/me.jpg" alt="My profile pic">
-                </div>
-                <div class="column-right">
-                    <div class="text">
-                        I am Itamar Junior and I am a <span>Computer Science</span> student at Dorset College in Dublin.
+        <!--About section -->
+        <section id="about" class="about">
+            <div class="max-width">
+                <h2 class="title">About me</h2>
+                <div id="about-content">
+                    <div class="column-left">
+                        <img src="./assets/images/me.jpg" alt="My profile pic">
                     </div>
-                    <p>
-                        I am 33 years old and I moved from Brazil to Ireland in May of 2018 looking for new adventures, to learn a new language and thriving to grow my skills.
-                        <p>I am passionate about technology and I am in my first year of Computer Science studies at Dorset College in Dublin, although I am a freshman I already love to code!</p>
-                        <p> I am a gamer and nerd, also I like to go to the gym, hang out with my friends and take some photos like a pro, feel free to check my Instagram. </p>
-                        <p>I love to help my friends so my YouTube channel came to help me spread everything everything that I know about Ireland for those who wish to come here, alike I have a blog( mochilandonaeuropa.com) about tips and tricks in Ireland
-                            for Brazilians.</p>
-                        <p>Feel free to connect with me on my Linkedin</p>
+                    <div class="column-right">
+                        <div class="text">
+                            I am Itamar Junior and I am a <span>Computer Science</span> student at Dorset College in Dublin.
+                        </div>
+                        <p>
+                            I am 33 years old and I moved from Brazil to Ireland in May of 2018 looking for new adventures, to learn a new language and thriving to grow my skills.
+                            <p>I am passionate about technology and I am in my first year of Computer Science studies at Dorset College in Dublin, although I am a freshman I already love to code!</p>
+                            <p> I am a gamer and nerd, also I like to go to the gym, hang out with my friends and take some photos like a pro, feel free to check my Instagram. </p>
+                            <p>I love to help my friends so my YouTube channel came to help me spread everything everything that I know about Ireland for those who wish to come here, alike I have a blog( mochilandonaeuropa.com) about tips and tricks in Ireland
+                                for Brazilians.</p>
+                            <p>Feel free to connect with me on my Linkedin</p>
+                            <a href="https://www.linkedin.com/in/itamarjr/" target="_blank">My Linkedin</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Projects section -->
+        <section id="Projects" class="Projects">
+            <div class="max-width">
+                <h2 class="title">Projects</h2>
+                <div id="Projects-content">
+
+                    <div id="card">
+
+                        <a href="https://github.com/codeitamarjr/S2UXUIPersonalPage" target="_blank">
+                            <div class="box">
+                                <img class="img" src="./assets/images/iconmonstr-code-2.svg" alt="Code icon">
+                                <div class="text">
+                                    Personal page
+                                </div>
+                                <p>If you want to have a look at this code you can check the source code available on github.com/codeitamarjr/Blog <br/>*It is also available under the MIT License, so feel free to copy and modify as you want.</p>
+                            </div>
+                        </a>
+
+                        <a href="http://mochilandonaeuropa.com/" target="_blank">
+                            <div class="box">
+                                <img class="img" src="./assets/images/iconmonstr-code-2.svg" alt="Icon code image">
+                                <div class="text">
+                                    Mochilando na Europa
+                                </div>
+                                <p>Personal blog which I talk travel with tips and tricks about Ireland for Brazilians.</p>
+                                <p>I use WordPress hosted on an EC2 by AWS, protected by Cloudfare.</p>
+                            </div>
+                        </a>
+
+                        <a href="https://ijincorporadora.com.br/" target="_blank">
+                            <div class="box">
+                                <img class="img" src="./assets/images/iconmonstr-code-2.svg" alt="Icon code image">
+                                <div class="text">
+                                    IJ Incorporadora
+                                </div>
+                                <p>This is a commercial website that I made for a Building company IJ Incorporadora.</p>
+                                <p>I used WordPress hosted on Linux Shared Web Service to fit the budget and also the number of visits per month.</p>
+                            </div>
+                        </a>
+
+                        <a href="https://www.youtube.com/TIemDublin" target="_blank">
+                            <div class="box">
+                                <img class="img" src="./assets/images/iconmonstr-youtube-1.svg" alt="Youtube">
+                                <div class="text">
+                                    TI em Dublin
+                                </div>
+                                <p>This is my YouTube channel where I share my experiences living abroad, to help other peoples from my country, also share some tips and tricks about my Bsc. in Computing.</p>
+                            </div>
+                    </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--Skill's section -->
+        <section id="skills">
+            <div class="max-width">
+                <h2 class="title">My Skills</h2>
+                <div id="skills-content">
+                    <div class="column-left">
+                        <div class="text">
+                            My Skills and Experiences in IT
+                        </div>
+                        <p> I am learning Java and as you see I know something about UI technologies and frameworks such as Bootstrap, also CSS and HTML.<br/> I have knowledge about CMOS using a WordPress system for the last 4 years, web servers and how to
+                            set up a web environment, including shared or cloud hosting( EC2 on AWS) and experience with database systems like MySQL.<br/> If you want to know more about me feel free to have a look at my Linkedin profile.</p>
                         <a href="https://www.linkedin.com/in/itamarjr/" target="_blank">My Linkedin</a>
-                </div>
-            </div>
-        </div>
-    </section>
 
+                    </div>
 
+                    <div class="column-right">
 
-
-    <!--Projects section -->
-    <section id="Projects" class="Projects">
-        <div class="max-width">
-            <h2 class="title">Projects</h2>
-            <div id="Projects-content">
-
-                <div id="card">
-
-                    <a href="https://github.com/codeitamarjr/S2UXUIPersonalPage" target="_blank">
-                        <div class="box">
-                            <img class="img" src="./assets/images/iconmonstr-code-2.svg" alt="Code icon">
-                            <div class="text">
-                                Personal page
+                        <div class="bars">
+                            <div class="info">
+                                <span>HTML</span>
+                                <span>50%</span>
                             </div>
-                            <p>If you want to have a look at this code you can check the source code available on github.com/codeitamarjr/Blog <br/>*It is also available under the MIT License, so feel free to copy and modify as you want.</p>
-                        </div>
-                    </a>
+                            <div class="line html"></div>
 
-                    <a href="http://mochilandonaeuropa.com/" target="_blank">
-                        <div class="box">
-                            <img class="img" src="./assets/images/iconmonstr-code-2.svg" alt="Icon code image">
-                            <div class="text">
-                                Mochilando na Europa
+
+                        </div>
+                        <div class="bars">
+                            <div class="info">
+                                <span>PHP</span>
+                                <span>40%</span>
                             </div>
-                            <p>Personal blog which I talk travel with tips and tricks about Ireland for Brazilians.</p>
-                            <p>I use WordPress hosted on an EC2 by AWS, protected by Cloudfare.</p>
-                        </div>
-                    </a>
+                            <div class="line php"></div>
 
-                    <a href="https://ijincorporadora.com.br/" target="_blank">
-                        <div class="box">
-                            <img class="img" src="./assets/images/iconmonstr-code-2.svg" alt="Icon code image">
-                            <div class="text">
-                                IJ Incorporadora
+                        </div>
+                        <div class="bars">
+                            <div class="info">
+                                <span>CSS</span>
+                                <span>40%</span>
                             </div>
-                            <p>This is a commercial website that I made for a Building company IJ Incorporadora.</p>
-                            <p>I used WordPress hosted on Linux Shared Web Service to fit the budget and also the number of visits per month.</p>
-                        </div>
-                    </a>
+                            <div class="line css"></div>
 
-                    <a href="https://www.youtube.com/TIemDublin" target="_blank">
-                        <div class="box">
-                            <img class="img" src="./assets/images/iconmonstr-youtube-1.svg" alt="Youtube">
-                            <div class="text">
-                                TI em Dublin
+                        </div>
+                        <div class="bars">
+                            <div class="info">
+                                <span>JAVA</span>
+                                <span>30%</span>
                             </div>
-                            <p>This is my YouTube channel where I share my experiences living abroad, to help other peoples from my country, also share some tips and tricks about my Bsc. in Computing.</p>
+                            <div class="line java"></div>
+
                         </div>
-                </div>
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <!--Skill's section -->
-    <section id="skills">
-        <div class="max-width">
-            <h2 class="title">My Skills</h2>
-            <div id="skills-content">
-                <div class="column-left">
-                    <div class="text">
-                        My Skills and Experiences in IT
-                    </div>
-                    <p> I am learning Java and as you see I know something about UI technologies and frameworks such as Bootstrap, also CSS and HTML.<br/> I have knowledge about CMOS using a WordPress system for the last 4 years, web servers and how to set
-                        up a web environment, including shared or cloud hosting( EC2 on AWS) and experience with database systems like MySQL.<br/> If you want to know more about me feel free to have a look at my Linkedin profile.</p>
-                    <a href="https://www.linkedin.com/in/itamarjr/" target="_blank">My Linkedin</a>
-
-                </div>
-
-                <div class="column-right">
-
-                    <div class="bars">
-                        <div class="info">
-                            <span>HTML</span>
-                            <span>50%</span>
+                        <div class="bars">
+                            <div class="info">
+                                <span>MySQL</span>
+                                <span>50%</span>
+                            </div>
+                            <div class="line mysql"></div>
                         </div>
-                        <div class="line html"></div>
-
-
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>PHP</span>
-                            <span>40%</span>
-                        </div>
-                        <div class="line php"></div>
-
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>CSS</span>
-                            <span>40%</span>
-                        </div>
-                        <div class="line css"></div>
-
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>JAVA</span>
-                            <span>30%</span>
-                        </div>
-                        <div class="line java"></div>
-
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>MySQL</span>
-                            <span>50%</span>
-                        </div>
-                        <div class="line mysql"></div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!--Contact section -->
-
+        <!--Contact section -->
 
 
-    <section id="contact" class="contact">
-        <div class="max-width">
-            <h2 class="title">Contact me</h2>
-            <div id="contact-content">
-                <div id="column" class="network">
-                    <div class="text">Find me</div>
-                    <p>Feel free to get in touch also to connect with me on the networks bellow.</p>
 
-                    <div class="icons-row1">
-                        <div class="row">
-                            <img src="./assets/images/iconmonstr-user-20.svg" alt="User icon">
-                            <div class="info">
-                                <div class="head">Name</div>
-                                <div class="subtitle">Itamar Junior</div>
+        <section id="contact" class="contact">
+            <div class="max-width">
+                <h2 class="title">Contact me</h2>
+                <div id="contact-content">
+                    <div id="column" class="network">
+                        <div class="text">Find me</div>
+                        <p>Feel free to get in touch also to connect with me on the networks bellow.</p>
+
+                        <div class="icons-row1">
+                            <div class="row">
+                                <img src="./assets/images/iconmonstr-user-20.svg" alt="User icon">
+                                <div class="info">
+                                    <div class="head">Name</div>
+                                    <div class="subtitle">Itamar Junior</div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <img src="./assets/images/iconmonstr-location-2.svg" alt="Location icon">
+                                <div class="info">
+                                    <a href="https://www.google.com/maps/place/Dublin/" target="_blank">
+                                        <div class="head">Address</div>
+                                        <div class="subtitle">Dublin, Ireland</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <img src="./assets/images/iconmonstr-email-14.svg" alt="Email icon">
+                                <div class="info">
+                                    <a href="mailto:hello@itjunior.dev">
+                                        <div class="head">Email</div>
+                                        <div class="subtitle">hello@itjunior.dev</div>
+                                    </a>
+                                </div>
                             </div>
                         </div>
-                        <div class="row">
-                            <img src="./assets/images/iconmonstr-location-2.svg" alt="Location icon">
-                            <div class="info">
-                                <a href="https://www.google.com/maps/place/Dublin/" target="_blank">
-                                    <div class="head">Address</div>
-                                    <div class="subtitle">Dublin, Ireland</div>
-                                </a>
+
+                        <div class="icons-row2">
+                            <div class="row">
+                                <img src="./assets/images/iconmonstr-github-5.svg" alt="Github icon">
+                                <div class="info">
+                                    <a href="https://github.com/codeitamarjr" target="_blank">
+                                        <div class="head">GitHub</div>
+                                        <div class="subtitle">codeitamarjr</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <img src="./assets/images/iconmonstr-linkedin-5.svg" alt="Linkedin icon">
+                                <div class="info">
+                                    <a href="https://www.linkedin.com/in/itamarjr/" target="_blank">
+                                        <div class="head">Linkedin</div>
+                                        <div class="subtitle">itamarjr</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <img src="./assets/images/iconmonstr-facebook-5.svg" alt="Facebook icon">
+                                <div class="info">
+                                    <a href="https://www.facebook.com/ita.junior" target="_blank">
+                                        <div class="head">Facebook</div>
+                                        <div class="subtitle">Facebook profile</div>
+                                    </a>
+                                </div>
                             </div>
                         </div>
-                        <div class="row">
-                            <img src="./assets/images/iconmonstr-email-14.svg" alt="Email icon">
-                            <div class="info">
-                                <a href="mailto:hello@itjunior.dev">
-                                    <div class="head">Email</div>
-                                    <div class="subtitle">hello@itjunior.dev</div>
-                                </a>
-                            </div>
-                        </div>
+
                     </div>
-
-                    <div class="icons-row2">
-                        <div class="row">
-                            <img src="./assets/images/iconmonstr-github-5.svg" alt="Github icon">
-                            <div class="info">
-                                <a href="https://github.com/codeitamarjr" target="_blank">
-                                    <div class="head">GitHub</div>
-                                    <div class="subtitle">codeitamarjr</div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <img src="./assets/images/iconmonstr-linkedin-5.svg" alt="Linkedin icon">
-                            <div class="info">
-                                <a href="https://www.linkedin.com/in/itamarjr/" target="_blank">
-                                    <div class="head">Linkedin</div>
-                                    <div class="subtitle">itamarjr</div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <img src="./assets/images/iconmonstr-facebook-5.svg" alt="Facebook icon">
-                            <div class="info">
-                                <a href="https://www.facebook.com/ita.junior" target="_blank">
-                                    <div class="head">Facebook</div>
-                                    <div class="subtitle">Facebook profile</div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
             </div>
-        </div>
-        </div>
-    </section>
 
-    <!--Footer section -->
-    <footer>
-        <span>Created by <a href="mailto:hello@itjunior.dev">Itamar Junior</a> | <span> </span> 2021 All rights reserved.</span>
-    </footer>
+        </section>
+
+        <!--Navigator butom up -->
+
+
+        <a href="#home">
+            <div id="scroll-up-buttom" class="scroll-up-buttom">
+                <img src="./assets/images/iconmonstr-triangle-4-32.png" alt="Navigation up">
+            </div>
+        </a>
+
+
+
+        <!--Footer section -->
+        <footer>
+            <span>Created by <a href="mailto:hello@itjunior.dev">Itamar Junior</a> | <span> </span> 2021 All rights reserved.</span>
+        </footer>
+
+    </div>
 
 
 </body>

@@ -78,10 +78,15 @@ html {
     cursor: pointer;
     transition: all 1s ease;
     pointer-events: auto;
-    opacity: 0.1;
+    opacity: 0.01;
 }
 
 .scroll-up-buttom:hover {
+    opacity: 1;
+    transition: all 1s ease;
+}
+
+#navigator-up:hover .scroll-up-buttom {
     opacity: 1;
     transition: all 1s ease;
 }
