@@ -470,9 +470,9 @@ footer span a:hover {
 }
 
 
-/*Responsive menu*/
+/*Responsive menu and Main content color swap*/
 
-@media (max-width:947px) {
+@media (max-width:750px) {
     .max-width {
         padding: 0 50px;
     }
@@ -496,5 +496,11 @@ footer span a:hover {
     #menu a:active {
         all: none;
         display: none;
+    }
+    #home #home-content #text-2 {
+        color: crimson;
+    }
+    #home #home-content #text-3 span {
+        color: white;
     }
 }
