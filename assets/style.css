@@ -279,7 +279,7 @@ section {
 }
 
 #Projects .title::after {
-    content: "I am working on";
+    content: "Working on";
     background-color: #111;
 }
 
