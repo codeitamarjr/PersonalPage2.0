@@ -279,9 +279,8 @@ section {
 }
 
 #Projects .title::after {
-    content: "My Projects";
-    background: white;
-    border-radius: 6px;
+    content: "I am working on";
+    background-color: #111;
 }
 
 #Projects #Projects-content .box {
