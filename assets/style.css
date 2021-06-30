@@ -286,7 +286,7 @@ section {
 #Projects #Projects-content .box {
     width: 26vh;
     min-width: 280px;
-    height: 32vh;
+    height: 100%;
     background-color: #222;
     text-align: center;
     border-radius: 6px;
@@ -327,11 +327,11 @@ section {
 }
 
 #skills #skills-content .column-left {
-    width: 50vh;
-    min-width: 35vh;
-    margin: 0 auto 5%;
+    text-align: right;
     width: 50%;
-    justify-content: center;
+    min-width: 40vh;
+    margin: 0 auto 5%;
+    margin-right: 5vh;
 }
 
 #skills #skills-content .column-left .text {
@@ -341,11 +341,12 @@ section {
 }
 
 #skills #skills-content .column-left p {
-    margin-right: 5vh;
+    text-align: right;
 }
 
 #skills #skills-content .column-right {
-    width: 50vh;
+    width: 45%;
+    min-width: 35vh;
     text-align: left;
     margin: 0 auto 5%;
 }
@@ -466,4 +467,34 @@ footer span a {
 footer span a:hover {
     font-weight: 900;
     transition: all 0.3s ease;
+}
+
+
+/*Responsive menu*/
+
+@media (max-width:947px) {
+    .max-width {
+        padding: 0 50px;
+    }
+    #menu {
+        content: url("./images/iconmonstr-menu-6.svg");
+        filter: invert();
+    }
+    #menu:active {
+        content: normal;
+        filter: none;
+        display: flex;
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.9);
+        text-align: center;
+        transition: all 0.7s ease;
+    }
+    #menu a:active {
+        all: none;
+        display: none;
+    }
 }
