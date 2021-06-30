@@ -509,6 +509,7 @@ footer span a:hover {
     #click a:target {
         display: block;
     }
+    /*Invert colors on the main content*/
     #home #home-content #text-2 {
         color: crimson;
     }
