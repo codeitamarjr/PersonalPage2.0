@@ -472,7 +472,7 @@ footer span a:hover {
 
 /*Responsive menu and Main content color swap*/
 
-@media (max-width:750px) {
+@media (max-width:900px) {
     .max-width {
         padding: 0 50px;
     }
