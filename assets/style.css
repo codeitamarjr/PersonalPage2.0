@@ -472,18 +472,28 @@ footer span a:hover {
 
 /*Responsive menu and Main content color swap*/
 
+.responsive {
+    display: none;
+}
+
 @media (max-width:900px) {
     .max-width {
         padding: 0 50px;
     }
-    #menu {
-        content: url("./images/iconmonstr-menu-6.svg");
+    .responsive {
+        display: block;
+        float: right;
+        align-items: center;
+    }
+    .menu-responvive-img {
         filter: invert();
     }
-    #menu:active {
-        content: normal;
-        filter: none;
-        display: flex;
+    #menuresponsivo,
+    #menu {
+        display: none;
+    }
+    #menuresponsivo:target {
+        display: block;
         position: fixed;
         height: 100%;
         width: 100%;
@@ -492,9 +502,12 @@ footer span a:hover {
         background: rgba(0, 0, 0, 0.9);
         transition: all 0.7s ease;
     }
-    #menu a:active {
-        all: none;
-        display: none;
+    #menuresponsivo:target li {
+        text-align: center;
+        margin: 8vh;
+    }
+    #click a:target {
+        display: block;
     }
     #home #home-content #text-2 {
         color: crimson;
