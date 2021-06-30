@@ -480,7 +480,8 @@ footer span a:hover {
         content: url("./images/iconmonstr-menu-6.svg");
         filter: invert();
     }
-    #menu:hover {
+    #menu:hover,
+    #menu:active {
         content: normal;
         filter: none;
         display: flex;
@@ -492,7 +493,8 @@ footer span a:hover {
         background: rgba(0, 0, 0, 0.9);
         transition: all 0.7s ease;
     }
-    #menu a:active {
+    #menu a:active,
+    #menu a:hover {
         all: none;
         display: none;
     }
