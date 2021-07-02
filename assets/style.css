@@ -2,8 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Ubuntu:wght@400;500;700&display=swap');
 * {
-    margin: 0vh;
-    padding: 0vh;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
     text-decoration: none;
     font-family: 'Ubuntu';
@@ -214,19 +214,21 @@ section {
 }
 
 #about-content .column-left {
-    width: 50%;
+    width: 45%;
     display: flex;
     justify-content: center;
     margin: 0 auto 5%;
 }
 
 #about-content .column-left img {
-    width: 40vh;
+    width: 400px;
+    height: fit-content;
     border-radius: 6px;
 }
 
 #about-content .column-right {
-    width: 85vh;
+    width: 50vh;
+    min-width: 400px;
     text-align: left;
     margin: 0 auto 5%;
 }
@@ -290,7 +292,7 @@ section {
 #Projects #Projects-content .box {
     width: 26vh;
     min-width: 280px;
-    height: 100%;
+    height: 290px;
     background-color: #222;
     text-align: center;
     border-radius: 6px;
@@ -332,10 +334,9 @@ section {
 
 #skills #skills-content .column-left {
     text-align: right;
-    width: 50%;
+    width: 50vh;
     min-width: 40vh;
     margin: 0 auto 5%;
-    margin-right: 5vh;
 }
 
 #skills #skills-content .column-left .text {
@@ -345,12 +346,11 @@ section {
 }
 
 #skills #skills-content .column-left p {
-    text-align: right;
+    text-align: justify;
 }
 
 #skills #skills-content .column-right {
-    width: 45%;
-    min-width: 35vh;
+    width: 350px;
     text-align: left;
     margin: 0 auto 5%;
 }
