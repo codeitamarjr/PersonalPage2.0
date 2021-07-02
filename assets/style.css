@@ -1,3 +1,5 @@
+/*Font Ubuntu by Google: https://fonts.google.com */
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Ubuntu:wght@400;500;700&display=swap');
 * {
     margin: 0vh;
@@ -5,11 +7,11 @@
     box-sizing: border-box;
     text-decoration: none;
     font-family: 'Ubuntu';
-}
-
-html {
     scroll-behavior: smooth;
 }
+
+
+/*padding order top and bottom,  right and left*/
 
 .max-width {
     padding: 0 8vh;
@@ -23,7 +25,7 @@ html {
     list-style: none;
     width: 100%;
     padding: 5vh 0;
-    /* to add the gradiant coming from the TOP*/
+    /* Add the gradiant coming from the TOP*/
     background: -webkit-radial-gradient( 10% 0%, 100% 30%, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0) 230%);
 }
 
@@ -54,6 +56,7 @@ html {
     font-size: 1.9vh;
     font-weight: 500;
     margin-left: 3vh;
+    /*Smooth transition to the hover action*/
     transition: color 0.4s ease;
 }
 
@@ -199,6 +202,7 @@ section {
     color: crimson;
     padding: 5px;
     background: white;
+    /*To translate the axys of the subtitle in the midle*/
     transform: translateX(-50%);
 }
 
