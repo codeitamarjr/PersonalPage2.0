@@ -221,15 +221,14 @@ section {
 }
 
 #about-content .column-left img {
-    width: 400px;
+    width: 375px;
     height: fit-content;
     border-radius: 6px;
 }
 
 #about-content .column-right {
     width: 50vh;
-    min-width: 400px;
-    text-align: left;
+    text-align: justify;
     margin: 0 auto 5%;
 }
 
@@ -519,5 +518,8 @@ footer span a:hover {
     }
     #home #home-content #text-3 span {
         color: white;
+    }
+    #skills #skills-content .column-left {
+        text-align: center;
     }
 }
