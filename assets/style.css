@@ -314,7 +314,7 @@ section {
 #Projects #Projects-content #card .img {
     filter: invert();
     width: 40px;
-    height: 40px;
+    height: auto;
 }
 
 #Projects #Projects-content #card .box .text {
@@ -387,7 +387,7 @@ section {
 }
 
 #skills #skills-content .column-right .php::before {
-    width: 40%;
+    width: 30%;
 }
 
 #skills #skills-content .column-right .css::before {
@@ -395,11 +395,11 @@ section {
 }
 
 #skills #skills-content .column-right .java::before {
-    width: 30%;
+    width: 40%;
 }
 
 #skills #skills-content .column-right .mysql::before {
-    width: 50%;
+    width: 30%;
 }
 
 
