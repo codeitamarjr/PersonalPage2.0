@@ -247,7 +247,7 @@ section {
 }
 
 #about-content .column-right a,
-#skills #skills-content .column-left a {
+#skills #skills-content .column a {
     display: inline-block;
     background: crimson;
     color: #fff;
@@ -261,7 +261,7 @@ section {
 }
 
 #about-content .column-right a:hover,
-#skills #skills-content .column-left a:hover {
+#skills #skills-content .column a:hover {
     color: crimson;
     background: none;
 }
@@ -331,75 +331,21 @@ section {
     background: #fff;
 }
 
-#skills #skills-content .column-left {
-    text-align: right;
-    width: 50vh;
+#skills #skills-content .column {
+    text-align: center;
+    width: 80vh;
     min-width: 40vh;
     margin: 0 auto 5%;
 }
 
-#skills #skills-content .column-left .text {
+#skills #skills-content .column .text {
     font-size: 2vh;
     font-weight: 600;
     margin-bottom: 10px;
 }
 
-#skills #skills-content .column-left p {
+#skills #skills-content .column p {
     text-align: justify;
-}
-
-#skills #skills-content .column-right {
-    width: 350px;
-    text-align: left;
-    margin: 0 auto 5%;
-}
-
-#skills #skills-content .column-right .info {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 1vh;
-}
-
-#skills #skills-content .column-right span {
-    font-weight: 600px;
-    font-size: 1.8vh;
-}
-
-#skills #skills-content .column-right .line {
-    height: 1vh;
-    background: lightgray;
-    position: relative;
-    border-radius: 2vh;
-}
-
-#skills #skills-content .column-right .line::before {
-    content: "";
-    position: absolute;
-    height: 100%;
-    left: 0;
-    top: 0;
-    background: crimson;
-    border-radius: 2vh;
-}
-
-#skills #skills-content .column-right .html::before {
-    width: 50%;
-}
-
-#skills #skills-content .column-right .php::before {
-    width: 30%;
-}
-
-#skills #skills-content .column-right .css::before {
-    width: 40%;
-}
-
-#skills #skills-content .column-right .java::before {
-    width: 40%;
-}
-
-#skills #skills-content .column-right .mysql::before {
-    width: 30%;
 }
 
 
@@ -519,7 +465,7 @@ footer span a:hover {
     #home #home-content #text-3 span {
         color: white;
     }
-    #skills #skills-content .column-left {
+    #skills #skills-content .column {
         text-align: center;
     }
 }
