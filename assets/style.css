@@ -222,7 +222,7 @@ section {
 
 #about-content .column-left img {
     width: 375px;
-    height: fit-content;
+    height: auto;
     border-radius: 6px;
 }
 
