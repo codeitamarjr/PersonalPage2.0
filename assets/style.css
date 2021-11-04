@@ -376,7 +376,7 @@ section {
 
 #contact #contact-content #column .row {
     display: flex;
-    padding: 7vh 6vh 0;
+    padding: 7vh 7vh 7vh 7vh;
 }
 
 #contact #contact-content #column .row .info {
