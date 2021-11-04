@@ -376,7 +376,7 @@ section {
 
 #contact #contact-content #column .row {
     display: flex;
-    padding: 6vh 0 0;
+    padding: 7vh 6vh 0;
 }
 
 #contact #contact-content #column .row .info {
@@ -387,11 +387,11 @@ section {
     color: rgb(133, 133, 133);
 }
 
-.network {
+.contact-subtitle {
     display: flex;
-    width: 50vh;
+    width: 80vh;
     flex-flow: wrap;
-    justify-content: space-around;
+    text-align: justify;
 }
 
 
