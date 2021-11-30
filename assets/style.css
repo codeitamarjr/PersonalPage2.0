@@ -99,7 +99,7 @@
 
 #home {
     display: flex;
-    background: url("./images/cherries.jpg") no-repeat center;
+    background: url("./images/cherries.webp") no-repeat center;
     background-size: cover;
     /*To fill to the height*/
     background-color: black;
